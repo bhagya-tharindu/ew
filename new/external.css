@@ -1,0 +1,28 @@
+.aa {
+  height: 5rem;
+  background: yellowgreen;
+}
+.bb {
+  height: calc(100vh - 5rem);
+  background: linear-gradient(rgba(75, 86, 269, 0.4), rgba(75, 86, 269, 0.4)),
+    url(sl.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.img {
+  float: left;
+  width: 33.3vw;
+}
+.img-1 {
+  width: 33.3vw;
+}
+.img-2 {
+  width: 33.3vw;
+  float: right;
+}
